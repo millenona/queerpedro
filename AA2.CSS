@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: hsl(51, 100%, 50%);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: hsl(283, 100%, 23%);
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hwb(268 0% 59%);
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: hwb(180 5% 13%);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #f5f5f5;
+}
